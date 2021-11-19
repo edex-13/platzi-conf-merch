@@ -4,7 +4,8 @@
   "description": "project developed in the professional course of react hooks in platzi",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack serve  --open",
+    "build": "webpack --mode production"
   },
   "keywords": [
     "react",
@@ -12,5 +13,22 @@
     "javascript"
   ],
   "author": "Ederson Felipe López Bolívar <ederson12f@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "html-loader": "^3.0.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.5",
+    "webpack": "^5.64.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
+  }
 }
