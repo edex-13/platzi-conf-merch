@@ -1,11 +1,11 @@
 import React from 'react'
 
-const App = () => {
+const Success = () => {
   return (
     <div>
-      <h1>hola mundo</h1>
+      <h1>Success</h1>
     </div>
   )
 }
 
-export { App }
+export { Success }
