@@ -60,9 +60,6 @@ const Payment = () => {
           />
         </div>
       </div>
-      <div>
-        <h1>A</h1>
-      </div>
     </div>
   )
 }
