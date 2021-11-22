@@ -23,11 +23,18 @@ const useInitialState = () => {
       cart
     })
   }
+  const addToBuyer = payload => {
+    const buyer = [...state.buyer, payload]
+    setState({
+      ...state,
+      buyer
+    })
+  }
   return {
     addToCart,
     removeToCart,
+    addToBuyer,
     state
   }
 }
-
 export { useInitialState }
